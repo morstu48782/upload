@@ -8,14 +8,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
-    setCount(count + 1);
+    setCount(count + 5);
   };
 
   const handleDecrement = () => {
     if (count === 0){
       return;
     }
-    setCount(count - 1);
+    setCount(count - 5);
   };
 
   const handleReset = () => {
